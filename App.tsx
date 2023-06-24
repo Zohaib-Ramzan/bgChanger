@@ -9,10 +9,10 @@ import {
 
 const App = () => {
   const [bgChanger, setbgChanger] = useState('#000000');
-  const [rectBgChanger, setrectBgChanger] = useState('');
-  const [squareBgChanger, setsquareBgChanger] = useState('');
-  const [circleBgChanger, setcircleBgChanger] = useState('');
-  const [triangleBgChanger, settriangleBgChanger] = useState('');
+  const [rectBgChanger, setrectBgChanger] = useState('coral');
+  const [squareBgChanger, setsquareBgChanger] = useState('coral');
+  const [circleBgChanger, setcircleBgChanger] = useState('coral');
+  const [triangleBgChanger, settriangleBgChanger] = useState('coral');
 
   function colorChanger() {
     const hexRange = '0123456789ABCDEF';
